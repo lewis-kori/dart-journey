@@ -10,6 +10,9 @@ class complex{
   get realnumber=>real;
   set realnumber(num value)=> real=value;
   
+  get imaginarynumber=>real;
+  set imaginarynumber(num value)=> real=value;
+  
   @override
   String toString() {
     // TODO: implement toString
